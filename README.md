@@ -16,3 +16,5 @@ Dynamic Programming underscore more in enhancement as opposed to outright recurs
 We need to utilize Dynamic programming answer for taking care of this n-sovereign issue. In n sovereign issue the n sovereigns are to be put in the chess in way that no sovereign danger other sovereign. The sovereign assault evenly, vertically and askew in this way new sovereign should be put in a position which isn't undermined by recently positioned sovereigns. 
 
 This issue is comprehended by basic O(f(n)8^n) arrangement which depends on unique programming In which f(n) is a low request polynomial which is demonstrated to be first non paltry upper headed for the issue. 
+
+One of the principle bit of leeway of dynamic writing computer programs is its cycle separates any difficult that is mind boggling and convert it into interrelated arrangement for some sub issues it generally gives the knowledge to the issues nature
