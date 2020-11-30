@@ -12,7 +12,7 @@
 ## Description ##
 This repository contains assignments and project submitted to DAA course offered in Fall 2020 at PafKiet.
 
-##DYNAMIC PROGRAMMING##
+## DYNAMIC PROGRAMMING ##
 
 Dynamic Programming underscore more in enhancement as opposed to outright recursion. Recursive arrangement normally has continous call precisely comparative sources of info consequently at whatever point we see them we need to enhance is by applying Dynamic Programming 
 
