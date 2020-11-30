@@ -11,6 +11,9 @@
 
 ## Description ##
 This repository contains assignments and project submitted to DAA course offered in Fall 2020 at PafKiet.
+
+##DYNAMIC PROGRAMMING##
+
 Dynamic Programming underscore more in enhancement as opposed to outright recursion. Recursive arrangement normally has continous call precisely comparative sources of info consequently at whatever point we see them we need to enhance is by applying Dynamic Programming 
 
 We need to utilize Dynamic programming answer for taking care of this n-sovereign issue. In n sovereign issue the n sovereigns are to be put in the chess in way that no sovereign danger other sovereign. The sovereign assault evenly, vertically and askew in this way new sovereign should be put in a position which isn't undermined by recently positioned sovereigns. 
