@@ -1,0 +1,36 @@
+function noConflicts(columns, i) {
+    for (var j=0; j<i; j++) {
+        // same row
+        if (columns[j] === columns[i]) {
+            return false;
+        }
+        
+        
+        if (i-j === Math.abs(columns[j]-columns[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+function queens(columns, i, n) {
+    
+    if (i === n) {
+        return columns;
+    }
+    
+    
+    for (var j=0; j<n; j++) {
+        columns[i] = j;
+        if (noConflicts(columns, i)) {
+            var solution = queens(columns, i+1, n);
+            if (solution) {
+                //document.writeln(solution);
+                return solution;
+            }
+        }
+    }
+        
+    return false;
+}
