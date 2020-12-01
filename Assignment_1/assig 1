@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>N-Queen Problem</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="nQueen.js"></script>
+</head>
+<body>
+	<h1>N-Queen Problem</h1>
+	<h2><b>62378 - Arbaz Hussain<b></h2><!--This is the group leader-->
+	<h3>61504 - Bilal laeeq</h3><!--This is the 2nd Member of the group-->
+	<h3>59285 - Muhammad Sufyan</h3><!--This is the 3rd Member of the group-->
+	<h4><a href="https://github.com/Arbaz1233/DM-109-Fall-2020/tree/main/Assignment_1" target="blank">GitHub</a></h4><!--Replace about:blank with your GitHub repository folder for assignment 1. -->
+	<p> 
+		<button id="btnRun" onclick="runEmAll()">Run</button>
+	</p>
+	<textarea id="ta_sol1" cols="50" rows="30"></textarea>&nbsp
+	<textarea id="ta_sol2" cols="50" rows="30"></textarea>&nbsp
+	<textarea id="ta_sol3" cols="50" rows="30"></textarea>
+</body>
+</html>
