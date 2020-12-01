@@ -36,3 +36,38 @@ the fastest way from A to B goes through intersection C, it doesn’t necessaril
 to C because you might need to be coming into C in the correct direction. In fact, the right way
 to model that problem as a graph is not to have one node per intersection, but rather to have one
 node per hintersection, directioni pair. That way you recover the property you need.
+
+FORMALIZING THE DYNAMIC-PROGRAMMING APPROACH
+The elementary example presented in the previous section illustrates the three most important characteristics
+of dynamic-programming problems:
+Stages
+The essential feature of the dynamic-programming approach is the structuring of optimization problems
+into multiple stages, which are solved sequentially one stage at a time. Although each one-stage problem
+is solved as an ordinary optimization problem, its solution helps to define the characteristics of the next
+one-stage problem in the sequence.
+Often, the stages represent different time periods in the problem’s planning horizon. For example, the
+problem of determining the level of inventory of a single commodity can be stated as a dynamic program.
+The decision variable is the amount to order at the beginning of each month; the objective is to minimize the
+total ordering and inventory-carrying costs; the basic constraint requires that the demand for the product be
+satisfied. If we can order only at the beginning of each month and we want an optimal ordering policy for
+the coming year, we coulddecompose the problem into 12 stages, each representing the ordering decision at
+the beginning of the corresponding month.
+Sometimes the stages do not have time implications. For example, in the simple situation presented
+in the preceding section, the problem of determining the routes of minimum delay from the homes of the
+commuters to the downtown parking lots was formulated as a dynamic program. The decision variable was
+whether to choose up or down in any intersection, and the stages of the process were defined to be the number
+of intersections to go. Problems that can be formulated as dynamic programs with stages that do not have
+time implications are often difficult to recognize.
+States
+Associated with each stage of the optimization problem are the states of the process. The states reflect
+the information required to fully assess the consequences that the current decision has upon future actions.
+In the inventory problem given in this section, each stage has only one variable describing the state: the
+inventory level on hand of the single commodity. The minimum-delay problem also has one state variable:
+the intersection a commuter is in at a particular stage.
+The specification of the states of the system is perhaps the most critical design parameter of the dynamicprogramming model. There are no set rules for doing this. In fact, for the most part, this is an art often
+requiring creativity and subtle insight about the problem being studied. The essential properties that should
+motivate the selection of states are:
+i) The states should convey enough information to make future decisions without regard to how the process
+reached the current state; and
+ii) The number of state variables should be small, since the computational effort associated with the dynamicprogramming approach is prohibitively expensive when there are more than two, or possibly three, state
+variables involved in the model formulation
