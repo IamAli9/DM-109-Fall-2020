@@ -1,0 +1,63 @@
+With data collection and use continuing to increase exponentially, the need to visualize this data is becoming more important. Developers seek to consolidate millions of database records into beautiful charts and dashboards that humans can quickly and intuitively interpret.
+
+Data visualization technology has continued to improve over the past decade and many advanced chart libraries are now available to consumers. In the early 2000s, chart generation was dominated by server side image bitmap charts. Plugins such as Flash and Silverlight offered a more interactive charting experience but with a heavy toll on download speed, battery life and system resources.
+
+With the explosion of mobile and tablet usage, plugins were no longer supported on major platforms and developers had to shift to open client side technologies that could run everywhere. At the same time, the advent of very high resolution screens and more common zooming through touch gestures brought resolution independent vector charts to the forefront.
+
+Enter the current era of data visualization dominated by JavaScript and SVG (Scalable Vector Graphics). Charts now run on all browsers, without special plugins, support interactivity and animations and look sharp even on the highest resolution devices. Reviewing over 50 visualization libraries, these 9 products stood out:
+D3.js
+
+D3.js is a very extensive and powerful graphics JavaScript library. It allows you to bind arbitrary data to a Document Object Model (DOM), and then apply data-driven transformations to the document.
+
+D3 goes well beyond typical charting libraries, including many other smaller technical modules such as axes, colors, hierarchies, contours, easing, polygons, and more. All this makes for a steep learning curve.
+
+Trying to create a simple chart can be complicated. All elements including the axes, and other chart items need to be defined explicitly. Many samples show how CSS can be used to style chart elements. No charting-based features apply automatically. If you want to get into the weeds and use creativity to fully control every element, it is the best choice. Working against the clock to meet data visualization project requirements it may not be the best choice starting from scratch.
+
+D3.js can be a building block for a charting library. Developers have used D3 to make it easier to use chart solutions that consume it, such as NVD3.
+
+D3.js is open source and free to use.
+JSCharting
+
+JSCharting chart library supports a large number of chart types including maps, gantt, stock and others that often require separate libraries to use. It includes built-in maps of all world countries, and a library of SVG icons. A suite of standalone micro charts can render in any chart labels or in any div element on a page. UI controls (UiItems) are also included allowing for richer interactive charts. To control data or visualization variables in real-time is easy and charts can be exported to SVG, PNG, PDF, and JPG formats.
+
+The gallery is divided into chart type and feature samples. The chart styling is polished and yields some clean looking charts. The overall visuals provide a clean and professional charting experience.
+
+Included samples use a configuration object to customize charts. The settings to create and control chart types are very simple to use. Few property settings are needed to specify more complex chart types and JSCharting has strong and dynamic defaults meaning it attempts to choose the best settings for the scenarios automatically.
+
+The documentation includes many tutorials and thorough API property descriptions. Many properties include example usage and sample links.
+
+JSCharting is free for non commercial and personal use and also offers commercial license options that includes all chart types and products for a single fee.
+Highcharts
+
+Highcharts is a popular JavaScript charting library used by many of the world’s largest companies. Charts are generated using SVG and fallback to VML for backward compatibility all the way to IE6/IE8. The demo charts demonstrate a fairly rich feature set but don’t wow visually. General documentation includes tutorials for many relevant topics and the API documentation is thorough.
+
+The chart uses configuration options to create charts and the API is easy to use.
+
+Highcharts is free for non-commercial and personal use. Commercial licensing is required for other usage and stock, map and gantt charts are licensed separately.
+amCharts
+
+amCharts has recently released their version 4 which adds a strong SVG animation engine that allows creating movie-like scenes.
+
+The demo charts look very nice. Most demos offer a number of palettes and a slider UI to adjust chart variables in real-time. Documentation includes many tutorials and full API property descriptions.
+
+Creating a chart feels slightly different from the configuration-based approach, and instead uses a more declarative API. It requires slightly more code to configure charts but gives a better code completion experience.
+
+amCharts offers a free license with branded charts and paid licenses for other usage.
+Google Charts
+
+Google charts are powerful and easy to use.
+
+The sample charts look clean and are easy on the eyes. The gallery and extended gallery shows many chart types, but pressing the hamburger menu reveals more types (like calendar) that are not shown in these gallery lists.
+
+Each chart type has a dedicated tutorial with live examples. The tutorials include code for the related features and API listings. This is a pleasant experience getting started with a new chart library.
+
+Charts are customized using the configuration options object. Data sets are populated using a DataTable class which can be consumed by all charts. Each chart type has unique options listed in the type specific tutorials. Property naming is standardized and many options work across all types.
+
+Google charts is free, but there is a caveat. It is a web service and cannot be hosted locally. In the past Google has retired API’s so if your usage is mission critical you may want to pick another option.
+ZingChart
+
+ZingChart offers many chart types and integrates with angular, react, and other frameworks. It has a strong feature set with many customization options.
+
+The demo charts show a range of styling themes, some of which look better than others, but the options to style them as needed are there. Demos don’t demonstrate all the available chart types.
+
+Documentation includes tutorials for all the available types, a good number of features, and full API listing.
